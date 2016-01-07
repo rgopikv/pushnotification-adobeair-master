@@ -1,0 +1,13 @@
+<extension xmlns="http://ns.adobe.com/air/extension/2.5">
+  <id>com.afterisk.shared.android.GCMPush</id>
+  <versionNumber>1</versionNumber>
+  <platforms>
+    <platform name="Android-ARM">
+      <applicationDeployment>
+        <nativeLibrary>gcm.jar</nativeLibrary>
+        <initializer>com.afterisk.shared.android.gcm.GCMPushExtension</initializer>
+        <finalizer>com.afterisk.shared.android.gcm.GCMPushExtension</finalizer>
+      </applicationDeployment>
+    </platform>
+  </platforms>
+</extension>

@@ -1,0 +1,1 @@
+adt -package -target ane gcm.ane extension.xml -swc extension.swc -platform Android-ARM -C android .

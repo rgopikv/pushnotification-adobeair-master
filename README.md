@@ -18,7 +18,7 @@ This project helps to implement push notification styles like simple, bigPicture
 
 - [x] generate .ane with changed image
 
-	path/to/flex/sdk/bin/adt.bat -package -target ane gcm.ane extension.xml -swc extension.swc -platform Android-ARM -C android .
+	> path/to/flex/sdk/bin/adt.bat -package -target ane gcm.ane extension.xml -swc extension.swc -platform Android-ARM -C android .
 	
 	This will generates .ane file where you ran it.
 
@@ -73,9 +73,9 @@ This project helps to implement push notification styles like simple, bigPicture
 		                  </activity> 
 
 
-> push message configurations
+- [x] push message configurations
 
-   If you using PHP script to push your notifications, follow these message array format for supporting all these types.
+   If you using PHP script to push your notifications, follow these message array format for supporting all notification types.
 
 ``` PHP
 $msg = array
